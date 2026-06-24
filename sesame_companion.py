@@ -190,7 +190,7 @@ class VoiceInterface:
                 audio = self.recognizer.listen(source, timeout=timeout, phrase_time_limit=5)
                 
                 print("Recognizing...")
-                text = self.recognizer.recognize_google(audio)
+                text = self.recognizer.recognize_google(audio,language="es-ES")
                 return text
                 
         except sr.WaitTimeoutError:
