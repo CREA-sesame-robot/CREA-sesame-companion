@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crea-sesame-companion"
+version = "0.1.0"
+description = "Low-level robot control interface"
+requires-python = ">=3.9"
+dependencies = [
+    "google-generativeai>=0.3.0",
+    "google-genai>=0.1.0",
+    "requests>=2.31.0",
+    "SpeechRecognition>=3.10.0",
+    "pyttsx3>=2.90",
+    "PyAudio>=0.2.13",
+    "pygame>=2.5.0",
+    "numpy>=1.24.0",
+    "python-dotenv>=1.2.1"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

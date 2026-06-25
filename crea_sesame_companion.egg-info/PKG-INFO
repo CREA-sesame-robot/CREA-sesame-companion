@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: crea-sesame-companion
+Version: 0.1.0
+Summary: Low-level robot control interface
+Requires-Python: >=3.9
+Requires-Dist: google-generativeai>=0.3.0
+Requires-Dist: google-genai>=0.1.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: SpeechRecognition>=3.10.0
+Requires-Dist: pyttsx3>=2.90
+Requires-Dist: PyAudio>=0.2.13
+Requires-Dist: pygame>=2.5.0
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: python-dotenv>=1.2.1
