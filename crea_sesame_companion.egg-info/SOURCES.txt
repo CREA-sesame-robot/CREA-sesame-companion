@@ -5,3 +5,5 @@ crea_sesame_companion.egg-info/SOURCES.txt
 crea_sesame_companion.egg-info/dependency_links.txt
 crea_sesame_companion.egg-info/requires.txt
 crea_sesame_companion.egg-info/top_level.txt
+sesame_companion/__init__.py
+sesame_companion/gui.py

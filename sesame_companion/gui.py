@@ -10,8 +10,7 @@ import tkinter as tk
 from tkinter import ttk, scrolledtext
 import queue
 from datetime import datetime
-from sesame_companion import SesameCompanionApp, SesameRobotController, AVAILABLE_COMMANDS, AVAILABLE_FACES
-
+from . import SesameCompanionApp, SesameRobotController, AVAILABLE_COMMANDS, AVAILABLE_FACES
 try:
     from dotenv import load_dotenv
     load_dotenv()

@@ -1,3 +1,12 @@
+# Cambios / Notas de CREA
+## Conexión por wifi al robot:
+El robot genera un hotspot cada vez que se enciende. 
+SSID: Sesame-Controller
+Pswd: 12345678
+Para conectar al robot por medio de HTTP toca encontrar la IP mediante <br>
+`nslookup http://www.msftconnecttest.com/redirect`
+Y buscar el parametro "Address"
+
 # Sesame Robot Companion App
 
 AI-powered natural language interface for the Sesame robot using Google Gemini and PyTTSx3.
